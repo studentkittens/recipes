@@ -1,18 +1,41 @@
-name: Wirsing Eintopf
+name: WirsingEintopf      
 category: main
-persons: 4
-images: []
+persons: 4                  
 duration:
-  preparation: ""
-  cooking: ""
-  total: ""
-ingredients:
-- ""
-- ""
-- ""
-spices:
-- Kümmel
-complementaries:
-- ""
-recipe:
-- ""
+    preparation: 30m 
+    cooking: 1h           
+    total:   2h 00m         
+ingredients:                
+    - 1 Wirsing Kopf   
+    - 10 kleine, mehlig kochende Kartoffeln
+    - 1kg Rinderhackfleisch
+    - 500ml Rinderbrühe
+    - 4 Zwiebeln
+    - Knoblaub
+    - Schmand
+spices:                     
+    - Pfeffer
+    - Salz
+    - Muskat
+    - scharfen und süßer Paptika
+    - Kümmel
+    - Schittlauch
+    - Majoran
+complementaries:      
+    - Tomatenmark
+    - Wein
+recipe:              
+    - Zwiebeln schneiden und anbraten in großen Topf
+    - Rinderhack zugeben und durchbraten
+    - Masse würzen mit Salz und Pfeffer
+    - Knoblauch zugeben und ebenfalls anbraten
+    - mit Wein ablöschen und kurz einreduzieren
+    - Wirsing schneiden und untermengen
+    - alles mit Rinderbrühe übergießen
+    - Karfoffeln (evtl. ungeschält, falls klein genug) in kleine Würfel schneiden und in den Topf geben
+    - würzen mit reichlich süßen und scharfen Paprika, ein wenig Muskat und Kümmel je nach Geschmack
+    - Je nach Wunsch mit Soßenbinder oder Mehl etwas binden, damit der Eintopf sämiger wird.
+    - bei höherer Stufe 45 Minuten garen
+    - je nach gewünschter Bissfestigkeit auf kleiner Stufe die Masse weiterköcheln lassen
+    - Abschmecken mit Salz, Pfeffer und Majoran.
+    - Im Anschluss servieren im Teller mit einem Schlag Schmand und Schnittlauch oben drauf
