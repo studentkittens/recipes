@@ -1,0 +1,28 @@
+name: Forelle im Backofen
+category: Maindish
+persons: 1
+images:
+- .images/main/forelle/1.jpg
+- .images/main/forelle/2.jpg
+duration:
+  preparation: 20m
+  cooking: 40m
+  total: 60m
+ingredients:
+- Forelle
+- Gemüse (Paprika, Sellerie, Knoblauch, Aubergine, usw.)
+- Kartoffeln
+spices:
+- Pfeffer
+- Salz
+complementaries:
+- Butter
+recipe:
+- Gemüse in Würfel schneiden
+- Forelle säubern
+- Forelle auf Alufolie legen 
+- Forelle mit Gemüse füllen
+- Pfeffer und Butter darüber
+- Forelle mit der Alufolie zudecken
+- In den Backofen bei 220 Grad Ober-/Unterhitze für 40 Minuten
+- In der Zwischenzeit Kartoffeln in Salzwasser kochen
