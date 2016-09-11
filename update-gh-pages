@@ -1,0 +1,9 @@
+nom serve --static-dir=.html
+git checkout gh-pages
+rm -rf .images
+rm -rf detail
+mv .html/.images .
+mv .html/* .
+rmdir .html
+git commit -am "Updated"
+git checkout master
