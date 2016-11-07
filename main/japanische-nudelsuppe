@@ -2,7 +2,7 @@ name: Japanische Nudelsuppe
 category: main
 persons: 3
 images:
-- .images/japanische-nudelsuppe/japanische-nudelsuppe.jpg
+- .images/main/japanische-nudelsuppe/japanische-nudelsuppe.jpg
 duration:
   preparation: 20m
   cooking: 20m
