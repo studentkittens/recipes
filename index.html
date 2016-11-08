@@ -56,20 +56,26 @@ a.seamless:active {
     left: 0;
 }
 
+.cover {
+	width: 100%;
+	height: 200px;
+}
+
 .image {
     box-shadow: 3px 3px 10px #AAAAAA;
     border: 1px solid darkgrey;
     border-radius: 4px;
     transition: all 300ms ease;
-    width: 300px;
-    height: 200px;
-    object-fit: contain;
-    background-color: black;
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
 }
 
 .image:hover {
     box-shadow: 9px 9px 10px #CCBBAA;
-    transition: all 300ms ease;
+	border-radius: 8px;
+	border: 3px solid orange;
+    transition: all 200ms ease;
 }
 
 html {
@@ -103,157 +109,181 @@ h2 {
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/gulasch.html">
-              <img class="image" src=".images/main/gulasch/gulasch.jpg" alt="Rindergulasch">
-            </a>
-        
-        <a class="seamless" href="detail/main/gulasch.html">
-            <div class="desc">Rindergulasch</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/gulasch.html">
+				  <img class="image" src=".images/main/gulasch/gulasch.jpg" alt="Rindergulasch">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/gulasch.html">
+			<div class="desc">Rindergulasch</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/lasagne.html">
-              <img class="image" src=".images/main/lasagne/lasagne-3.jpg" alt="Lasagne nach Ur-Elchscher Art">
-            </a>
-        
-        <a class="seamless" href="detail/main/lasagne.html">
-            <div class="desc">Lasagne nach Ur-Elchscher Art</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/lasagne.html">
+				  <img class="image" src=".images/main/lasagne/lasagne-3.jpg" alt="Lasagne nach Ur-Elchscher Art">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/lasagne.html">
+			<div class="desc">Lasagne nach Ur-Elchscher Art</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/side/schwaebischer-kartoffelsalat.html">
-              <img class="image" src=".images/side/schwaebischer-kartoffelsalat/schwaebischer-kartoffelsalat.jpg" alt="Schwäbischer Kartoffelsalat">
-            </a>
-        
-        <a class="seamless" href="detail/side/schwaebischer-kartoffelsalat.html">
-            <div class="desc">Schwäbischer Kartoffelsalat</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/side/schwaebischer-kartoffelsalat.html">
+				  <img class="image" src=".images/side/schwaebischer-kartoffelsalat/schwaebischer-kartoffelsalat.jpg" alt="Schwäbischer Kartoffelsalat">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/side/schwaebischer-kartoffelsalat.html">
+			<div class="desc">Schwäbischer Kartoffelsalat</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/aelgsons-versuchung.html">
-              <img class="image" src=".images/main/aelgsons-versuchung/aelgsons-versuchung.jpg" alt="Älgsons Versuchung">
-            </a>
-        
-        <a class="seamless" href="detail/main/aelgsons-versuchung.html">
-            <div class="desc">Älgsons Versuchung</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/japanische-nudelsuppe.html">
+				  <img class="image" src=".images/main/japanische-nudelsuppe/japanische-nudelsuppe.jpg" alt="Japanische Nudelsuppe">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/japanische-nudelsuppe.html">
+			<div class="desc">Japanische Nudelsuppe</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/coq-au-vin.html">
-              <img class="image" src=".images/main/coq-au-vin/1-before.jpg" alt="Coq au Vin">
-            </a>
-        
-        <a class="seamless" href="detail/main/coq-au-vin.html">
-            <div class="desc">Coq au Vin</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/kokos-curry.html">
+				  <img class="image" src=".images/main/kokos-curry/3-final.JPG" alt="Scharfes Kokos Curry mit Reis">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/kokos-curry.html">
+			<div class="desc">Scharfes Kokos Curry mit Reis</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/filet-wellington.html">
-              <img class="image" src=".images/main/filet-wellington/filet-wellington-1.jpg" alt="Filet Wellington">
-            </a>
-        
-        <a class="seamless" href="detail/main/filet-wellington.html">
-            <div class="desc">Filet Wellington</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/spaggethi-putanesca.html">
+				  <img class="image" src=".images/main/spaggethi-putanesca/spaghetti-puttanesca-1.jpg" alt="Spaghetti Puttanesca">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/spaggethi-putanesca.html">
+			<div class="desc">Spaghetti Puttanesca</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/forelle.html">
-              <img class="image" src=".images/main/forelle/1.jpg" alt="Forelle im Backofen">
-            </a>
-        
-        <a class="seamless" href="detail/main/forelle.html">
-            <div class="desc">Forelle im Backofen</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/aelgsons-versuchung.html">
+				  <img class="image" src=".images/main/aelgsons-versuchung/aelgsons-versuchung.jpg" alt="Älgsons Versuchung">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/aelgsons-versuchung.html">
+			<div class="desc">Älgsons Versuchung</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/gefuellte-aubergine.html">
-              <img class="image" src=".images/main/gefuellte-aubergine/auberginen-5.jpg" alt="Gefüllte Auberginen (İmam bayıldı)">
-            </a>
-        
-        <a class="seamless" href="detail/main/gefuellte-aubergine.html">
-            <div class="desc">Gefüllte Auberginen (İmam bayıldı)</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/coq-au-vin.html">
+				  <img class="image" src=".images/main/coq-au-vin/1-before.jpg" alt="Coq au Vin">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/coq-au-vin.html">
+			<div class="desc">Coq au Vin</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/japanische-nudelsuppe.html">
-              <img class="image" src=".images/main/japanische-nudelsuppe/japanische-nudelsuppe.jpg" alt="Japanische Nudelsuppe">
-            </a>
-        
-        <a class="seamless" href="detail/main/japanische-nudelsuppe.html">
-            <div class="desc">Japanische Nudelsuppe</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/filet-wellington.html">
+				  <img class="image" src=".images/main/filet-wellington/filet-wellington-1.jpg" alt="Filet Wellington">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/filet-wellington.html">
+			<div class="desc">Filet Wellington</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/kokos-curry.html">
-              <img class="image" src=".images/main/kokos-curry/3-final.JPG" alt="Scharfes Kokos Curry mit Reis">
-            </a>
-        
-        <a class="seamless" href="detail/main/kokos-curry.html">
-            <div class="desc">Scharfes Kokos Curry mit Reis</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/forelle.html">
+				  <img class="image" src=".images/main/forelle/1.jpg" alt="Forelle im Backofen">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/forelle.html">
+			<div class="desc">Forelle im Backofen</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/spaggethi-putanesca.html">
-              <img class="image" src=".images/main/spaggethi-putanesca/spaghetti-puttanesca-1.jpg" alt="Spaghetti Puttanesca">
-            </a>
-        
-        <a class="seamless" href="detail/main/spaggethi-putanesca.html">
-            <div class="desc">Spaghetti Puttanesca</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/gefuellte-aubergine.html">
+				  <img class="image" src=".images/main/gefuellte-aubergine/auberginen-5.jpg" alt="Gefüllte Auberginen (İmam bayıldı)">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/gefuellte-aubergine.html">
+			<div class="desc">Gefüllte Auberginen (İmam bayıldı)</div>
+		</a>
         </center>
     </div>
 
     <div class="col">
         <center>
-        
-            <a target="_blank" href="detail/main/wirsing-eintopf.html">
-              <img class="image" src=".images/main/wirsing-eintopf/WirsingEintopf.jpg" alt="WirsingEintopf">
-            </a>
-        
-        <a class="seamless" href="detail/main/wirsing-eintopf.html">
-            <div class="desc">WirsingEintopf</div>
-        </a>
+		<div class="cover">
+			
+				<a target="_blank" href="detail/main/wirsing-eintopf.html">
+				  <img class="image" src=".images/main/wirsing-eintopf/WirsingEintopf.jpg" alt="WirsingEintopf">
+				</a>
+			
+		</div>
+		<a class="seamless" href="detail/main/wirsing-eintopf.html">
+			<div class="desc">WirsingEintopf</div>
+		</a>
         </center>
     </div>
 
