@@ -1,0 +1,39 @@
+name: Tuna Pasta
+category: main
+persons: 3
+images:
+- .images/main/tuna-pasta/tuna.JPG
+duration:
+  preparation: 10m
+  cooking: 2h
+  total: 30m
+ingredients:
+- 500g Nudeln
+- Dose Thunfisch oder mehr
+- Dose gehackte Tomaten
+- Tomatenmark
+- 2 Zwiebeln
+- 3 Zehen Knoblauch
+- Gemüsebrühe
+- evtl. Oliven
+- Sardellen oder Sardellenpaste
+- Kapern
+- 100ml Weißwein
+- 50ml Sahne
+- Basilikum
+spices:
+- Pfeffer
+- Salz
+- Sojasoße
+- Sambal Olek
+complementaries:
+- Olivenöl
+recipe:
+- Zwiebeln in Würfel schneiden und in Öl auslassen.
+- Knoblauch feinhacken und zugeben.
+- 5-6 Sardellen und 2 TL Tomatenmark zugeben.
+- Mit Weißwein ablöschen und kurz einreduzieren lassen.
+- Tomaten, Brühe, Kapern, Oliven (falls vorhanden) und Thunfisch hinzufügen.
+- Sojasoße und etwas Sahne zugeben und noch köcheln lassen.
+- Basilikum zugeben und abschließend mit Pfeffer und Salz abschmecken.
+- Derweil bereits gekochte Nudeln abtropfen und etwas Käse reiben.
