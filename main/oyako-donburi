@@ -1,7 +1,10 @@
 name: Oyako Donburi (Eltern-Kind-Gericht)
 category: maindish
 persons: 3
-images: []
+images:
+- .images/main/oyako-donburi/oyako-donburi-post-2.jpg
+- .images/main/oyako-donburi/oyako-donburi-post-1.jpg
+- .images/main/oyako-donburi/oyako-donburi-pre.jpg
 duration:
   preparation: 20m
   cooking: 20m
