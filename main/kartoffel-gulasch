@@ -1,7 +1,8 @@
 name: Kartoffelgulasch
 category: main
 persons: 4
-images: []
+images:
+- .images/main/kartoffel-gulasch/DSC02104.JPG
 duration:
   preparation: 30m
   cooking: 30m
